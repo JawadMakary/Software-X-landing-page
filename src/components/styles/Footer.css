@@ -1,0 +1,164 @@
+footer {
+  bottom: 0;
+}
+.footer {
+  background: rgb(30, 30, 30);
+  margin-top: 45px;
+}
+.footer__distributed {
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold;
+
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+
+.footer__distributed .footer__left,
+.footer__distributed .footer__center,
+.footer__distributed .footer__right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer__distributed .footer__left {
+  width: 40%;
+}
+
+.footer__distributed h3 {
+  color: #c5aa6a;
+
+  margin: 0;
+}
+p.footer__company__about {
+  margin-bottom: 20px !important;
+}
+.footer__distributed {
+  color: #c5aa6a;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer__distributed {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer__distributed .footer__company__name {
+  color: #c5aa6a;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer__distributed .footer__center {
+  width: 35%;
+}
+
+.footer__distributed .footer__center i {
+  background-color: #c5aa6a;
+  color: #c5aa6a;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer__distributed .footer__center i {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer__distributed .footer__center p {
+  display: inline-block;
+  color: #c5aa6a;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer___distributed .footer__center p span {
+  display: block;
+  line-height: 2;
+}
+
+.footer__distributed .footer__right {
+  width: 20%;
+}
+
+.footer__distributed .footer__company__about {
+  line-height: 20px;
+  color: #c5aa6a;
+  margin: 0;
+  margin-bottom: 10px !important;
+}
+
+.footer__distributed .footer__company__about span {
+  display: block;
+  color: #c5aa6a;
+  margin-bottom: 20px;
+}
+
+.footer__distributed .footer__icons {
+  margin-top: 25px;
+}
+
+.footer__distributed .footer__icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #c5aa6a;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer_mui_icon {
+  transition: all 0.15s ease-in-out;
+}
+.footer_mui_icon:hover {
+  color: var(--primary-light-color) !important;
+}
+/* for responsive services design */
+/* ____________________________________________________________________________________ */
+/* ____________________________________________________________________________________ */
+/* ____________________________________________________________________________________ */
+/* For Mobile/tablet View */
+@media (max-width: 880px) {
+  .footer__distributed {
+    font-size: 14px;
+  }
+
+  .footer__distributed .footer__left,
+  .footer__distributed .footer__center,
+  .footer__distributed .footer__right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer__distributed .footer__center i {
+    margin-left: 0;
+  }
+  .footer_icons_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55px;
+  }
+}
