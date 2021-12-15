@@ -23,7 +23,7 @@ import PeopleIcon from "@material-ui/icons/People";
 // _________________________
 // _________________________
 // _________________________
-import Zoom from 'react-reveal/Zoom'
+import Zoom from "react-reveal/Zoom";
 const Home = () => {
   return (
     <div className="home">
@@ -38,18 +38,14 @@ const Home = () => {
           <Zoom>
             <div className="services_container">
               <h2 className="services_header">Our Services</h2>
-              <span className="services_container_text">
-                Covered in these areas
-              </span>
+              <div className="team_head">
+                <div className=" team_header_und title-underline center">
+                  <span></span>
+                </div>
+              </div>
             </div>
           </Zoom>
-          <div className="service_items">
-            <div className="service_items_container">
-              <Services
-                icon={<LanguageIcon />}
-                title={"lorem ipsum"}
-                text={"lorem ipsum dolor sit amet"}
-              />
+          <div className="service_items">          
               <Services
                 icon={<CreateIcon />}
                 title={"lorem ipsum"}
@@ -66,7 +62,6 @@ const Home = () => {
                 text={"lorem ipsum dolor sit amet"}
               />
             </div>
-          </div>
         </div>
       </div>
       <div className="home_footer">
