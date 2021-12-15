@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer__right">
-          <h3 className="footer__company__about">Connect With Us</h3>
+          <h3 className="footer__company__about">Contact Us Via</h3>
 
           <div className="footer_icons_container">
             <FacebookIcon
