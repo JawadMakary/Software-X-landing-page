@@ -131,7 +131,7 @@ p.footer__company__about {
   transition: all 0.15s ease-in-out;
 }
 .footer_mui_icon:hover {
-  color: var(--primary-light-color) !important;
+  color: var(--primary-dark-color) !important;
 }
 /* for responsive services design */
 /* ____________________________________________________________________________________ */
