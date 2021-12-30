@@ -2,10 +2,10 @@ import React from "react";
 import "./styles/Services.css";
 const Services = ({ icon, title, text }) => {
   return (
-    <div id='services_cont' class="wrapper">
-      <div class="single-service">
-        <div class="social">
-          {icon}
+    <div id='services_cont' className="wrapper">
+      <div className="single-service">
+        <div className="social">
+          {icon }
         </div>
         <span></span>
         <h3>{title}</h3>

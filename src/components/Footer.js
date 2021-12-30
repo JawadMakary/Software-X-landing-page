@@ -19,12 +19,12 @@ const Footer = () => {
     <div className="footer">
       <footer className="footer__distributed">
         <div className="footer__left">
-          <img src="assets/images/logo-white.png" alt="expatserviceslogo" width={200} />
+          <img src="logo.jpeg" alt="software x logo" width={200} />
         </div>
         <div className="footer__center">
           <div>
             <p>
-              <span>Expat services</span>{" "}
+              <span>Software X</span>{" "}
             </p>
           </div>
           <div>
@@ -38,17 +38,17 @@ const Footer = () => {
           <div className="footer_icons_container">
             <FacebookIcon
               className="footer_mui_icon"
-              style={{ color: "#c5aa6a", marginRight: 70, cursor: "pointer" }}
+              style={{ color: "#fff", marginRight: 70, cursor: "pointer" }}
               onClick={newTagFb}
             />
             <InstagramIcon
               className="footer_mui_icon"
-              style={{ color: "#c5aa6a", marginRight: 70, cursor: "pointer" }}
+              style={{ color: "#fff", marginRight: 70, cursor: "pointer" }}
               onClick={newTabIg}
             />
             <TwitterIcon
               className="footer_mui_icon"
-              style={{ color: "#c5aa6a", marginRight: 80, cursor: "pointer" }}
+              style={{ color: "#fff", marginRight: 80, cursor: "pointer" }}
               onClick={newTabTwitter}
             />
           </div>

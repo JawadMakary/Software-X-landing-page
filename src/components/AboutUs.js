@@ -13,13 +13,11 @@ const AboutUs = () => {
             </div>
             <div className="aboutUs_text_container">
               <span className="aboutUs_text">
-                hello world hello world hello world hello world hello world
-                hello world hello world hello world hello world hello world
-                hello world hello world hello worldv hello world hello world
-                hello world hello world hello world hello world hello world
-                hello world
-                <br /> Sincerely,
-                <br /> name
+                Welcome to software X, your number one source for all digital
+                assistant. We're dedicated to providing you the best service,
+                with a focus on web & app development. We're working to turn our
+                passion for coding into a booming company. We hope you enjoy our
+                services as much as we enjoy offering them to you.
               </span>
             </div>
           </div>
@@ -29,8 +27,8 @@ const AboutUs = () => {
             <div className="aboutUs_img_container">
               <img
                 className="aboutUs_img"
-                src="assets/images/about.png"
-                alt="expatservicesAboutUs"
+                src="about.png"
+                alt="Software X about "
               />
             </div>
           </div>

@@ -11,10 +11,10 @@ div#about {
 .react-reveal.aboutUs_left {
   margin-left: 15px;
 }
-img.aboutUs_img {
+/* img.aboutUs_img {
   border-radius: 10px;
   box-shadow: 0 8px 22px 0 rgba(28, 29, 39, 0.37);
-}
+} */
 .aboutUs_img {
   width: 350px;
   height: 350px;
@@ -75,9 +75,14 @@ span.aboutUs_text {
     max-width: 300px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .react-reveal.aboutUs_right {
     text-align: center;
     margin-right: 20px;
   }
+  .aboutUs_text_container {
+     width: 100%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 }

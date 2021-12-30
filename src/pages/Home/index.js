@@ -14,10 +14,9 @@ import "./Home.css";
 // _________________________
 // _________________________
 // _________________________
-import CreateIcon from "@material-ui/icons/Create";
-import LanguageIcon from "@material-ui/icons/Language";
-import VideocamIcon from "@material-ui/icons/Videocam";
-import PeopleIcon from "@material-ui/icons/People";
+import HttpIcon from '@material-ui/icons/Http';
+import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
+import WebIcon from '@material-ui/icons/Web';
 
 // additional dependencies import
 // _________________________
@@ -47,19 +46,19 @@ const Home = () => {
           </Zoom>
           <div className="service_items">          
               <Services
-                icon={<CreateIcon />}
-                title={"lorem ipsum"}
-                text={"lorem ipsum dolor sit amet"}
+                icon={<HttpIcon fontSize="large"  />}
+                title={"Website development"}
+                // text={"lorem ipsum dolor sit amet"}
               />
               <Services
-                icon={<VideocamIcon />}
-                title={"lorem ipsum"}
-                text={"lorem ipsum dolor sit amet"}
+                icon={<PhoneAndroidIcon fontSize="large" />}
+                title={"App development"}
+                // text={"lorem ipsum dolor sit amet"}
               />
               <Services
-                icon={<PeopleIcon />}
-                title={"lorem ipsum"}
-                text={"lorem ipsum dolor sit amet"}
+                icon={<WebIcon fontSize="large" />}
+                title={"UI/UX design"}
+                // text={"lorem ipsum dolor sit amet"}
               />
             </div>
         </div>

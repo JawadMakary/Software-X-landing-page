@@ -22,8 +22,8 @@ const Header = () => {
           <Link to={ROUTES.HOME}>
             <img
               className="header_left_img"
-              src="assets/images/logo.png"
-              alt="Expat services"
+              src="logo.jpeg"
+              alt="Software X"
             />
           </Link>
         </div>

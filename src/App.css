@@ -5,7 +5,7 @@
 }
 :root {
   --primary-light-color: rgb(108, 197, 204);
-  --primary-dark-color: rgb(9, 91, 102);
+  --primary-dark-color: #450804;
   --secondary-color: rgb(111, 112, 9);
 }
 h1,

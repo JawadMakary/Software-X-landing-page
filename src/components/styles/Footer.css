@@ -2,11 +2,11 @@ footer {
   bottom: 0;
 }
 .footer {
-  background: rgb(30, 30, 30);
+  background: #000;
   margin-top: 45px;
 }
 .footer__distributed {
-  background-color: rgb(30, 30, 30);
+  background-color: #000;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -29,7 +29,7 @@ footer {
 }
 
 .footer__distributed h3 {
-  color: #c5aa6a;
+  color: #fff;
 
   margin: 0;
 }
@@ -37,7 +37,7 @@ p.footer__company__about {
   margin-bottom: 20px !important;
 }
 .footer__distributed {
-  color: #c5aa6a;
+  color: #fff;
   margin: 20px 0 12px;
   padding: 0;
 }
@@ -50,7 +50,7 @@ p.footer__company__about {
 }
 
 .footer__distributed .footer__company__name {
-  color: #c5aa6a;
+  color: #fff;
   font-size: 16px;
   font-weight: normal;
   margin: 0;
@@ -61,8 +61,8 @@ p.footer__company__about {
 }
 
 .footer__distributed .footer__center i {
-  background-color: #c5aa6a;
-  color: #c5aa6a;
+  background-color: #fff;
+  color: #fff;
   font-size: 25px;
   width: 38px;
   height: 38px;
@@ -80,7 +80,7 @@ p.footer__company__about {
 
 .footer__distributed .footer__center p {
   display: inline-block;
-  color: #c5aa6a;
+  color: #fff;
   vertical-align: middle;
   margin: 0;
 }
@@ -96,14 +96,14 @@ p.footer__company__about {
 
 .footer__distributed .footer__company__about {
   line-height: 20px;
-  color: #c5aa6a;
+  color: #fff;
   margin: 0;
   margin-bottom: 10px !important;
 }
 
 .footer__distributed .footer__company__about span {
   display: block;
-  color: #c5aa6a;
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -120,7 +120,7 @@ p.footer__company__about {
   border-radius: 2px;
 
   font-size: 20px;
-  color: #c5aa6a;
+  color: #fff;
   text-align: center;
   line-height: 35px;
 

@@ -18,7 +18,7 @@ const loading = (
 );
 function App() {
   return (
-    <div className="">
+    <div >
       <div className="app">
         <Router>
           <Suspense fallback={loading}>

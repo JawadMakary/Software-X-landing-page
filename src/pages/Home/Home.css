@@ -10,7 +10,7 @@
   .title-underline {
     text-align: center;
     padding: 20px 0;
-    color: var(--primary-light-color);
+    color: var(--primary-dark-color);
     height: 21px;
   }
  
@@ -38,5 +38,7 @@
   }
   h2.services_header {
     text-align: center;
-}
+      text-align: center;
+  }
+
   
