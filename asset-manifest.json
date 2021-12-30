@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/JawadMakary/Software-X-landing-page/static/css/main.1e391a65.chunk.css",
+    "main.js": "/JawadMakary/Software-X-landing-page/static/js/main.eb08874c.chunk.js",
+    "main.js.map": "/JawadMakary/Software-X-landing-page/static/js/main.eb08874c.chunk.js.map",
+    "runtime-main.js": "/JawadMakary/Software-X-landing-page/static/js/runtime-main.32afd534.js",
+    "runtime-main.js.map": "/JawadMakary/Software-X-landing-page/static/js/runtime-main.32afd534.js.map",
+    "static/js/2.6a987657.chunk.js": "/JawadMakary/Software-X-landing-page/static/js/2.6a987657.chunk.js",
+    "static/js/2.6a987657.chunk.js.map": "/JawadMakary/Software-X-landing-page/static/js/2.6a987657.chunk.js.map",
+    "static/js/3.7b0cd567.chunk.js": "/JawadMakary/Software-X-landing-page/static/js/3.7b0cd567.chunk.js",
+    "static/js/3.7b0cd567.chunk.js.map": "/JawadMakary/Software-X-landing-page/static/js/3.7b0cd567.chunk.js.map",
+    "static/css/4.be308734.chunk.css": "/JawadMakary/Software-X-landing-page/static/css/4.be308734.chunk.css",
+    "static/js/4.59c53318.chunk.js": "/JawadMakary/Software-X-landing-page/static/js/4.59c53318.chunk.js",
+    "static/js/4.59c53318.chunk.js.map": "/JawadMakary/Software-X-landing-page/static/js/4.59c53318.chunk.js.map",
+    "index.html": "/JawadMakary/Software-X-landing-page/index.html",
+    "static/css/4.be308734.chunk.css.map": "/JawadMakary/Software-X-landing-page/static/css/4.be308734.chunk.css.map",
+    "static/css/main.1e391a65.chunk.css.map": "/JawadMakary/Software-X-landing-page/static/css/main.1e391a65.chunk.css.map",
+    "static/js/3.7b0cd567.chunk.js.LICENSE.txt": "/JawadMakary/Software-X-landing-page/static/js/3.7b0cd567.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32afd534.js",
+    "static/js/3.7b0cd567.chunk.js",
+    "static/css/main.1e391a65.chunk.css",
+    "static/js/main.eb08874c.chunk.js"
+  ]
+}
