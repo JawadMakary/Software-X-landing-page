@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/Projects.css";
 function Projects({ websiteLink, imageUrl,title }) {
   return (
-    <div className="projects" id="projects">
+    <div className="projects" id="">
       <a className="project_link" href={websiteLink} target="_blank" rel="noreferrer">
         <div className="single_project_container">
           <img className="project_img" src={imageUrl} alt="project_image" />

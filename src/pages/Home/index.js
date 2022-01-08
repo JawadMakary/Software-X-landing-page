@@ -64,7 +64,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="project">
+      <div className="project" id="projects">
         <h2 className="services_header">Check Some Of Our Projects</h2>
         <div className="project_container">
         <Projects
@@ -89,7 +89,7 @@ const Home = () => {
           title={"yumco landing page"}
         />
         <Projects
-          imageUrl={"https://i.imgur.com/cTiMZ4E.jpeg"}
+          imageUrl={"https://i.imgur.com/942Ogsc.png"}
           websiteLink={"http://sayadmedical.com/index.php/en/"}
           title={"Sayad Medical landing page"}
         />
@@ -105,6 +105,13 @@ const Home = () => {
           }
           title={"Local Financial Dashboard Web App"}
         />
+      
+         <a className="project_link" href="http://www.ties-education.org/" target="_blank" rel="noreferrer">
+        <div className="single_project_container">
+          <img className="project_img ties_education" src="http://www.ties-education.org/images/2018/12/22/logo-footer.png" alt="project_image" />
+          <p className="project_title">education website</p>
+        </div>
+      </a>
       </div>
       </div>
       <div className="home_footer">
