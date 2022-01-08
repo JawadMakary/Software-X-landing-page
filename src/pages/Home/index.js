@@ -14,15 +14,16 @@ import "./Home.css";
 // _________________________
 // _________________________
 // _________________________
-import HttpIcon from '@material-ui/icons/Http';
-import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
-import WebIcon from '@material-ui/icons/Web';
+import HttpIcon from "@material-ui/icons/Http";
+import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
+import WebIcon from "@material-ui/icons/Web";
 
 // additional dependencies import
 // _________________________
 // _________________________
 // _________________________
 import Zoom from "react-reveal/Zoom";
+import Projects from "../../components/Projects";
 const Home = () => {
   return (
     <div className="home">
@@ -44,24 +45,67 @@ const Home = () => {
               </div>
             </div>
           </Zoom>
-          <div className="service_items">          
-              <Services
-                icon={<HttpIcon fontSize="large"  />}
-                title={"Website development"}
-                // text={"lorem ipsum dolor sit amet"}
-              />
-              <Services
-                icon={<PhoneAndroidIcon fontSize="large" />}
-                title={"App development"}
-                // text={"lorem ipsum dolor sit amet"}
-              />
-              <Services
-                icon={<WebIcon fontSize="large" />}
-                title={"UI/UX design"}
-                // text={"lorem ipsum dolor sit amet"}
-              />
-            </div>
+          <div className="service_items">
+            <Services
+              icon={<HttpIcon fontSize="large" />}
+              title={"Website development"}
+              // text={"lorem ipsum dolor sit amet"}
+            />
+            <Services
+              icon={<PhoneAndroidIcon fontSize="large" />}
+              title={"App development"}
+              // text={"lorem ipsum dolor sit amet"}
+            />
+            <Services
+              icon={<WebIcon fontSize="large" />}
+              title={"UI/UX design"}
+              // text={"lorem ipsum dolor sit amet"}
+            />
+          </div>
         </div>
+      </div>
+      <div className="project">
+        <h2 className="services_header">Check Some Of Our Projects</h2>
+        <div className="project_container">
+        <Projects
+          imageUrl={
+            "https://keen-kowalevski-48e46f.netlify.app/images/portfolio/lnp.jpg"
+          }
+          websiteLink={"https://lineupfit.com/"}
+          title={"Lineupfit"}
+        />
+        <Projects
+          imageUrl={
+            "https://keen-kowalevski-48e46f.netlify.app/images/portfolio/ecommerce.jpg"
+          }
+          websiteLink={"https://gallant-meitner-b1ef62.netlify.app/"}
+          title={"E-commerce web app"}
+        />
+        <Projects
+          imageUrl={
+            "https://keen-kowalevski-48e46f.netlify.app/images/portfolio/yumco.jpg"
+          }
+          websiteLink={"http://yumcokw.com/en/"}
+          title={"yumco landing page"}
+        />
+        <Projects
+          imageUrl={"https://i.imgur.com/cTiMZ4E.jpeg"}
+          websiteLink={"http://sayadmedical.com/index.php/en/"}
+          title={"Sayad Medical landing page"}
+        />
+        <Projects
+          imageUrl={
+            "https://th.bing.com/th/id/R.f3bd4af9a8610fb9be71d4ea71c7b048?rik=3cs2O8Sm5SAhzA&pid=ImgRaw&r=0 "
+          }
+          title={"Local Medical Desktop App"}
+        />
+        <Projects
+          imageUrl={
+            "https://th.bing.com/th/id/R.a12f847ff952d6028dc2c8e400000a2b?rik=lKM85qEpTGMAIQ&pid=ImgRaw&r=0"
+          }
+          title={"Local Financial Dashboard Web App"}
+        />
+      </div>
       </div>
       <div className="home_footer">
         <Footer />

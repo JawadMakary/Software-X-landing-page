@@ -20,11 +20,7 @@ const Header = () => {
       <div className="header_left">
         <div className="header_left_imgContainer">
           <Link to={ROUTES.HOME}>
-            <img
-              className="header_left_img"
-              src="logo.jpeg"
-              alt="Software X"
-            />
+            <img className="header_left_img" src="logo.jpeg" alt="Software X" />
           </Link>
         </div>
       </div>
@@ -44,9 +40,13 @@ const Header = () => {
             <Link to="services_cont" smooth={true} duration={1000}>
               <span className="header_list_item">Services</span>
             </Link>
-          </div>
-
-        
+            </div>
+            <div className="header_right_item">
+              <Link to="projects" smooth={true} duration={1000}>
+                <span className="header_list_item">Our Projects</span>
+              </Link>
+            </div>
+         
         </div>
       ) : (
         <div className="header_right_showMenu">
@@ -77,7 +77,11 @@ const Header = () => {
                         Services
                       </li>
                     </Link>
-                 
+                    <Link to="projects" smooth={true} duration={1000}>
+                      <li onClick={() => setMenuItemsVisibility(false)}>
+                        Our Projects
+                      </li>
+                    </Link>
                   </ul>
                 </div>
               </nav>
