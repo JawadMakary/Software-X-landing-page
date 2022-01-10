@@ -108,7 +108,7 @@ const Home = () => {
       
          <a className="project_link" href="http://www.ties-education.org/" target="_blank" rel="noreferrer">
         <div className="single_project_container">
-          <img className="project_img ties_education" src="http://www.ties-education.org/images/2018/12/22/logo-footer.png" alt="project_image" />
+          <img className="project_img ties_education" src="https://i.imgur.com/wONuVKi.png" alt="project_image" />
           <p className="project_title">education website</p>
         </div>
       </a>

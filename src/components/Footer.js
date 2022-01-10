@@ -1,20 +1,20 @@
 import React from "react";
 import "./styles/Footer.css";
-import TwitterIcon from "@material-ui/icons/Twitter";
+// import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 
 const Footer = () => {
   // redirection to social media
   const newTabIg = () => {
-    window.open("https://www.instagram.com/", "_blank");
+    window.open("https://www.instagram.com/softw.arex/", "_blank");
   };
   const newTagFb = () => {
-    window.open("https://www.facebook.com/", "_blank");
+    window.open("https://www.facebook.com/Software-x-105503182024974", "_blank");
   };
-  const newTabTwitter = () => {
-    window.open("https://twitter.com/", "_blank");
-  };
+  // const newTabTwitter = () => {
+  //   window.open("https://twitter.com/", "_blank");
+  // };
   return (
     <div className="footer">
       <footer className="footer__distributed">
@@ -28,8 +28,8 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <p>+phone number</p> <br />
-            <p>email@email.com</p>
+            <p>+961 76 348 376</p> <br />
+            <p>jawad.makary@fullstackuniverse.com</p>
           </div>
         </div>
         <div className="footer__right">
@@ -46,11 +46,11 @@ const Footer = () => {
               style={{ color: "#fff", marginRight: 70, cursor: "pointer" }}
               onClick={newTabIg}
             />
-            <TwitterIcon
+            {/* <TwitterIcon
               className="footer_mui_icon"
               style={{ color: "#fff", marginRight: 80, cursor: "pointer" }}
               onClick={newTabTwitter}
-            />
+            /> */}
           </div>
         </div>
       </footer>
